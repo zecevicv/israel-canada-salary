@@ -212,3 +212,108 @@ table.table-2 th {
     padding: 0 2vw;
   }
 }
+
+/* #Removal Page
+================================================== */
+.removal-page {
+  background-image: url('../img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top center;
+}
+
+/* Logo */
+.removal-page .logo {
+  margin: 5.83vw 0 8.85vw 0;
+}
+
+.removal-page .logo img {
+  margin: 0 auto;
+  width: 18.75vw;
+}
+
+/* Heading */
+.removal-page .heading {
+  text-align: center;
+  margin-bottom: 10vw;
+}
+
+.removal-page .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #F05133;
+  color: white;
+  border-radius: .25vw;
+  width: 11.56vw;
+  height: 2.44vw;
+  margin: 0 auto;
+  margin-top: 1.8vw;
+}
+
+/* Box */
+.removal-page .box {
+  width: 44.5%;
+  background-color: white;
+  box-shadow: 0 12px 48px rgba(0, 0, 0, .09);
+  margin: 0 auto;
+  text-align: center;
+  padding: 1.5vw 0;
+}
+
+.removal-page .box p {
+  margin-bottom: .4vw;
+}
+
+.removal-page .box h3 span {
+  margin: 0 .15vw 0 .5vw;
+}
+
+@media (min-width: 1024px) {
+  .removal-page .box br {
+    display: none;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .removal-page {
+    background-image: url('../img/bg-mobile.jpg');
+  }
+  
+  /* Logo */
+  .removal-page .logo {
+    margin: 22.4vw 0 34.13vw 0;
+  }
+
+  .removal-page .logo img {
+    width: 63.46vw;
+  }
+  
+  /* Heading */
+  .removal-page .heading {
+    text-align: center;
+    margin-bottom: 10vw;
+  }
+  
+  .removal-page .btn {
+    border-radius: 1vw;
+    width: 46.66vw;
+    height: 10vw;
+    margin-top: 5.33vw;
+  }
+  
+  /* Box */
+  .removal-page .box {
+    width: 92%;
+    padding: 8.5vw 4vw;
+  }
+  
+  .removal-page .box p {
+    margin-bottom: 4vw;
+  }
+  
+  .removal-page .box h3 span {
+    margin: 0 1vw 0 0;
+  }
+}
